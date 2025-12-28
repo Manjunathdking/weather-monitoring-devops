@@ -1,0 +1,39 @@
+# Create .gitignore using notepad
+notepad .gitignore
+```
+
+When Notepad opens, **paste this content:**
+```
+# Environment variables
+.env
+.env.local
+
+# API Keys
+**/apikeys.js
+config/secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Node modules (if added later)
+node_modules/
+package-lock.json
+
+# Docker
+*.dockerignore
+
+# Temporary files
+*.tmp
+temp/
